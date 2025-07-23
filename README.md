@@ -29,11 +29,11 @@ Add any expense with a short description, amount, and who paid.
 
 The app calculates the fair split and displays balances.
 
-Live Preview
+Live Preview:
 You can run it locally or deploy it using GitHub Pages, Netlify, or Vercel.
 
-Use Case
+Use Case:
 Perfect for managing group trips, flatmate expenses, shared meals, or any group spending situation.
 
-Contributions
+Contributions:
 This project is beginner-friendly. Feel free to raise issues or open a pull request.
