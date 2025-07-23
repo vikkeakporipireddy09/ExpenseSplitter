@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Expense Splitter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💸 Expense Splitter</h1>
+
+    <!-- Section: Add Member    this section will add members involved in the transaction -->
+    <section class="card">
+      <h2>Add Members</h2>
+      <input type="text" id="member-name" placeholder="Enter member name" />
+      <button onclick="addMember()">Add Member</button>
+      <ul id="members-list"></ul>
+    </section>
+
+    <!-- Section: Add Expense    this section involves adding details of expense like amount ,purpose and paid member datails -->
+    <section class="card">
+      <h2>Add Expense</h2>
+      <input type="text" id="expense-desc" placeholder="Expense description" />
+      <input type="number" id="expense-amount" placeholder="Amount (₹)" />
+      <select id="paid-by">
+        <option value="">-- Paid By --</option>
+      </select>
+      <button onclick="addExpense()">Add Expense</button>
+    </section>
+
+    <!-- Section: Balance Summary   this will handle the final summay to be paid by the remaing members -->
+    <section class="card">
+      <h2>Balance Summary</h2>
+      <ul id="balance-summary"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
